@@ -21,7 +21,7 @@ if 'december' in rainfall:
 else:
     rainfall['december'] = 1#si no, crea un valor con el nombre december que valga 1
 
-for dato, valor in rainfall.items():        #forma de imprimir el nombre de la variave y su valor en diccionario
+for dato, valor in rainfall.items():        #forma de imprimir el nombre de la variave y su valor en diccionario clave_valor
      print(f'El valor de {dato} es {valor}')
 
     
@@ -33,7 +33,7 @@ for dato, valor in rainfall.items():        #forma de imprimir el nombre de la v
 total_rainfall = 0#inicializas un contador
 for value in rainfall.values():#values() va a pasar por todos los valores de las variables declaradas en el diccionario
     total_rainfall = total_rainfall + value#iteras una variable random para que valla pasndo uno por uno los valores y en esta linea pues hace la suma de toda la vida
-    print(value[2])
+  
 print(f'There was {total_rainfall}cm in the last quarter')
 
 

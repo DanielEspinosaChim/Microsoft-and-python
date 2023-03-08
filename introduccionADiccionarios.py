@@ -49,12 +49,12 @@ planet['name'] = 'Jupiter'
 planet['moons'] = 79
 
 #para meter valores a un diccionaro los puedes meter con[]
-planet[orbital_period]=4333 #agrega al diccionario orbital period y le da el valor de 4333
+planet['orbital_period']=4333 #agrega al diccionario orbital period y le da el valor de 4333
 #Los nombres de clave, como todo lo demás en Python, distinguen mayúsculas de minúsculas. Como resultado, 'name' y 'Name' se consideran
 # dos claves independientes en un diccionario de Python.
 #Para quitar una clave, use pop. pop devuelve el valor y quita la clave del diccionario. Para quitar orbital period, puede usar el 
 # código siguiente:
-planet.pop('orbital period')
+planet.pop('orbital_period')
 
 # planet dictionary now contains: {
 #   name: 'jupiter'
